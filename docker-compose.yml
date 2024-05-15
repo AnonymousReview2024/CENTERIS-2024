@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  server:
+    
+    image: anonymousreview2024/flaskcontainer:1.0
+    ports:
+    - "5000:5000"
+    
+  web:
+    
+    image: anonymousreview2024/reactcontainer:1.0
+    ports:
+      - "80:80"
+    depends_on:
+      - server
