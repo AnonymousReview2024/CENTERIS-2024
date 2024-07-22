@@ -1,5 +1,5 @@
-# IHC2024
-Application described at article submited for IHC 2024.
+#CENTERIS 2024
+Application described at article submited for CENTERIS 2024.
 
 This repository contains the docker compose file necessary for a local run of the aplication.
 
