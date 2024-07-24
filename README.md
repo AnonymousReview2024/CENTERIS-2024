@@ -24,4 +24,5 @@ Free hosting services don’t deliver enough computer power necessary for the co
 You only need to clone the .compose file to a folder on a computer with docker installed and run the "docker-compose up" command in the folder.
 
 **References**
+
 L. Silva Rosa, T. Soares Silva, M. Fantinato, e L. Thom, “A visual approach for identification and annotation of business process elements in process descriptions”, Comput. Stand. Interfaces, vol. 81, p. 103601, nov. 2021, doi: 10.1016/j.csi.2021.103601.
