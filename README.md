@@ -1,9 +1,9 @@
-#CENTERIS 2024
+**#CENTERIS 2024**
 Application described in the article submitted to CENTERIS 2024.
 
 This repository contains the docker compose file required for local execution of the application and the presentation of the Process Element Tagger tool.
 
-Process Element Tagger
+**Process Element Tagger**
 
 To revitalize Rosa’s solution, we started by analyzing the code available on GitHub, a laborious task given the low documentation. A few modifications were necessary to make the program operable again, such as updating discontinued methods and libraries. The Stanford NLP initialization was also changed to be performed as a separate command instead of part of the main script.
 In pursuing a flexible and scalable architecture, we implemented a system employing two containers: one dedicated to processing the natural language text descriptions identifying BPMN elements (back-end) and the other to web functionalities. This design allows the application to be initiated easily using a docker compose file. It also ensures independence between the two containers, allowing the use of the developed interface with other identification algorithms. The requisites for doing so are listening for requests at the appropriate port and producing responses following the adequate object format shown in Fig. 5.
@@ -19,7 +19,7 @@ Other functionalities have been modified. The "Participants List" now allows the
 Free hosting services don’t deliver enough computer power necessary for the correct operation of the back-end part of the application. During the evaluation period, we kept the Tagger running in a cloud computing service, using free credits provided by them for students. Once the credits were over, the online distribution was no longer available, but it is still possible to run it locally following the steps presented on this GitHub.
 
 
-Instructions for installing Process Element Tagger
+**Instructions for installing Process Element Tagger**
 
 You only need to clone the .compose file to a folder on a computer with docker installed and run the "docker-compose up" command in the folder.
 
