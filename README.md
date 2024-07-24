@@ -11,6 +11,7 @@ The interaction between these containers is limited to a single communication in
 The original proposed interface, delivered in the prototype stage, comprised three main components: The Participants List; The Elements Menu; And the Text Box. Although completely refactored, this structure was kept in our version, and our focus was on adding new functionalities to these components instead of engaging in their design.
 The application is built in a single page format using React. We used CSS to define a 3x3 grid where components are displayed according to the state of a variable called "InputPage". When set as true, it exhibits the title "Process Element Tagger" centralized in the first row of the grid, the center space is occupied by the Input Box component, and the bottom row contains a button named "Mark" that, when pressed send the process description to be analyzed by the back-end and change the InputPage variable state if a valid response is obtained. This page can be seen on the left side of Figure 1.
 
+<img src="[https://exemplo.com/logo.png](https://github.com/AnonymousReview2024/CENTERIS-2024/blob/main/prints%20tool.png)" alt="Logo da Minha Empresa">
 ![Prints from the tool waiting for input (left), and after receiving a response and select some of the tag options (right).](https://github.com/AnonymousReview2024/CENTERIS-2024/blob/main/prints%20tool.png)
  
 Figure 1. Prints from the tool waiting for input (left), and after receiving a response and select some of the tag options (right).
